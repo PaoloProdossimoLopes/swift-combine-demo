@@ -1,9 +1,5 @@
-#  TITLE
-DESCRIPTION ...
-
-## 🧰 Example:
-```swift
-```
+#  SWIFT COMBINE DEMO
+Combine is a native framework developed by apple to apply reactive behaviour in your code.
 
 ## ℹ️  GETTING STARTED
 ### PREREQUISITES 
@@ -14,7 +10,7 @@ DESCRIPTION ...
 1. Open your terminal in location that you want save the project.
 2. Clone the repo in this local.
 ```sh
-git clone https://github.com/PaoloProdossimoLopes/repository-template.git
+git clone https://github.com/PaoloProdossimoLopes/swift-combine-demo.git
 ```
 3. Open the file with extension .xcodeproj inside the folder project.
    
