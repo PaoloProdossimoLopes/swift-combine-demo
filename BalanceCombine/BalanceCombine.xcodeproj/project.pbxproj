@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B14BACB7285E462500582AEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BACB6285E462500582AEF /* AppDelegate.swift */; };
+		B14BACB9285E462500582AEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BACB8285E462500582AEF /* SceneDelegate.swift */; };
+		B14BACBB285E462500582AEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BACBA285E462500582AEF /* ViewController.swift */; };
+		B14BACC0285E462A00582AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B14BACBF285E462A00582AEF /* Assets.xcassets */; };
+		B14BACC3285E462A00582AEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14BACC1285E462A00582AEF /* LaunchScreen.storyboard */; };
+		B14BACCD285E553500582AEF /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BACCC285E553500582AEF /* BalanceView.swift */; };
+		B14BACD0285E556600582AEF /* BalanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BACCF285E556600582AEF /* BalanceViewModel.swift */; };
+		B14BACD9285E82D400582AEF /* BalanceBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BACD8285E82D400582AEF /* BalanceBoxView.swift */; };
+		B14BACDB285E830100582AEF /* BalanceBoxView+Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BACDA285E830100582AEF /* BalanceBoxView+Constant.swift */; };
+		B14BACDD285E832000582AEF /* BalanceBoxView+ViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BACDC285E832000582AEF /* BalanceBoxView+ViewData.swift */; };
+		B14BACE7285E84C700582AEF /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BACE6285E84C700582AEF /* Coordinator.swift */; };
+		B14BACE9285E851300582AEF /* SceneCoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BACE8285E851300582AEF /* SceneCoordinatorDelegate.swift */; };
+		B14BACEB285EAFD800582AEF /* BalanceBoxView+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BACEA285EAFD800582AEF /* BalanceBoxView+State.swift */; };
+		B14BACEE285F322D00582AEF /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BACED285F322D00582AEF /* ViewCode.swift */; };
+		B14BACF1285F364400582AEF /* UIControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BACF0285F364400582AEF /* UIControl+Extensions.swift */; };
+		B14BACF3285F39B700582AEF /* BalanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BACF2285F39B700582AEF /* BalanceService.swift */; };
+		B14BACF5285F49C400582AEF /* BalanceViewModel+Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BACF4285F49C400582AEF /* BalanceViewModel+Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B14BACB3285E462500582AEF /* BalanceCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BalanceCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14BACB6285E462500582AEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B14BACB8285E462500582AEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B14BACBA285E462500582AEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B14BACBF285E462A00582AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B14BACC2285E462A00582AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B14BACC4285E462A00582AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B14BACCC285E553500582AEF /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		B14BACCF285E556600582AEF /* BalanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceViewModel.swift; sourceTree = "<group>"; };
+		B14BACD8285E82D400582AEF /* BalanceBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceBoxView.swift; sourceTree = "<group>"; };
+		B14BACDA285E830100582AEF /* BalanceBoxView+Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BalanceBoxView+Constant.swift"; sourceTree = "<group>"; };
+		B14BACDC285E832000582AEF /* BalanceBoxView+ViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BalanceBoxView+ViewData.swift"; sourceTree = "<group>"; };
+		B14BACE6285E84C700582AEF /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		B14BACE8285E851300582AEF /* SceneCoordinatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinatorDelegate.swift; sourceTree = "<group>"; };
+		B14BACEA285EAFD800582AEF /* BalanceBoxView+State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BalanceBoxView+State.swift"; sourceTree = "<group>"; };
+		B14BACED285F322D00582AEF /* ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
+		B14BACF0285F364400582AEF /* UIControl+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Extensions.swift"; sourceTree = "<group>"; };
+		B14BACF2285F39B700582AEF /* BalanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceService.swift; sourceTree = "<group>"; };
+		B14BACF4285F49C400582AEF /* BalanceViewModel+Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BalanceViewModel+Models.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B14BACB0285E462500582AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B14BACAA285E462500582AEF = {
+			isa = PBXGroup;
+			children = (
+				B14BACB5285E462500582AEF /* BalanceCombine */,
+				B14BACB4285E462500582AEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B14BACB4285E462500582AEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACB3285E462500582AEF /* BalanceCombine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B14BACB5285E462500582AEF /* BalanceCombine */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACDF285E83B200582AEF /* Resources */,
+				B14BACDE285E83A300582AEF /* Sources */,
+				B14BACC4285E462A00582AEF /* Info.plist */,
+			);
+			path = BalanceCombine;
+			sourceTree = "<group>";
+		};
+		B14BACCA285E550C00582AEF /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACEF285F363900582AEF /* Class+Extensions */,
+				B14BACEC285F322200582AEF /* Protocol */,
+				B14BACE3285E84B600582AEF /* Pattern */,
+				B14BACE4285E84B900582AEF /* Scene */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		B14BACCB285E551900582AEF /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACE2285E841800582AEF /* SceneDelegates */,
+				B14BACE1285E83F800582AEF /* AppDelegates */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		B14BACD1285E75B600582AEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACCC285E553500582AEF /* BalanceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B14BACD2285E75B900582AEF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACBA285E462500582AEF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B14BACD3285E75BD00582AEF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACCF285E556600582AEF /* BalanceViewModel.swift */,
+				B14BACF4285F49C400582AEF /* BalanceViewModel+Models.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B14BACD4285E75C000582AEF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACF2285F39B700582AEF /* BalanceService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B14BACD5285E75C700582AEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B14BACD6285E82C700582AEF /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACD7285E82CA00582AEF /* BalanceBox */,
+			);
+			path = Subview;
+			sourceTree = "<group>";
+		};
+		B14BACD7285E82CA00582AEF /* BalanceBox */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACD8285E82D400582AEF /* BalanceBoxView.swift */,
+				B14BACEA285EAFD800582AEF /* BalanceBoxView+State.swift */,
+				B14BACDA285E830100582AEF /* BalanceBoxView+Constant.swift */,
+				B14BACDC285E832000582AEF /* BalanceBoxView+ViewData.swift */,
+			);
+			path = BalanceBox;
+			sourceTree = "<group>";
+		};
+		B14BACDE285E83A300582AEF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACCA285E550C00582AEF /* Feature */,
+				B14BACCB285E551900582AEF /* Defaults */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B14BACDF285E83B200582AEF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACC1285E462A00582AEF /* LaunchScreen.storyboard */,
+				B14BACBF285E462A00582AEF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B14BACE0285E83DF00582AEF /* Balance */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACD6285E82C700582AEF /* Subview */,
+				B14BACD5285E75C700582AEF /* Model */,
+				B14BACD4285E75C000582AEF /* Service */,
+				B14BACD3285E75BD00582AEF /* ViewModel */,
+				B14BACD2285E75B900582AEF /* Controller */,
+				B14BACD1285E75B600582AEF /* View */,
+			);
+			path = Balance;
+			sourceTree = "<group>";
+		};
+		B14BACE1285E83F800582AEF /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACB6285E462500582AEF /* AppDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		B14BACE2285E841800582AEF /* SceneDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACB8285E462500582AEF /* SceneDelegate.swift */,
+				B14BACE8285E851300582AEF /* SceneCoordinatorDelegate.swift */,
+			);
+			path = SceneDelegates;
+			sourceTree = "<group>";
+		};
+		B14BACE3285E84B600582AEF /* Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACE5285E84BF00582AEF /* Coordinator */,
+			);
+			path = Pattern;
+			sourceTree = "<group>";
+		};
+		B14BACE4285E84B900582AEF /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACE0285E83DF00582AEF /* Balance */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		B14BACE5285E84BF00582AEF /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACE6285E84C700582AEF /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		B14BACEC285F322200582AEF /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACED285F322D00582AEF /* ViewCode.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		B14BACEF285F363900582AEF /* Class+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B14BACF0285F364400582AEF /* UIControl+Extensions.swift */,
+			);
+			path = "Class+Extensions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B14BACB2285E462500582AEF /* BalanceCombine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B14BACC7285E462A00582AEF /* Build configuration list for PBXNativeTarget "BalanceCombine" */;
+			buildPhases = (
+				B14BACAF285E462500582AEF /* Sources */,
+				B14BACB0285E462500582AEF /* Frameworks */,
+				B14BACB1285E462500582AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BalanceCombine;
+			productName = BalanceCombine;
+			productReference = B14BACB3285E462500582AEF /* BalanceCombine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B14BACAB285E462500582AEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B14BACB2285E462500582AEF = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B14BACAE285E462500582AEF /* Build configuration list for PBXProject "BalanceCombine" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B14BACAA285E462500582AEF;
+			productRefGroup = B14BACB4285E462500582AEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B14BACB2285E462500582AEF /* BalanceCombine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B14BACB1285E462500582AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14BACC3285E462A00582AEF /* LaunchScreen.storyboard in Resources */,
+				B14BACC0285E462A00582AEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B14BACAF285E462500582AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14BACBB285E462500582AEF /* ViewController.swift in Sources */,
+				B14BACDB285E830100582AEF /* BalanceBoxView+Constant.swift in Sources */,
+				B14BACF5285F49C400582AEF /* BalanceViewModel+Models.swift in Sources */,
+				B14BACDD285E832000582AEF /* BalanceBoxView+ViewData.swift in Sources */,
+				B14BACD9285E82D400582AEF /* BalanceBoxView.swift in Sources */,
+				B14BACE9285E851300582AEF /* SceneCoordinatorDelegate.swift in Sources */,
+				B14BACCD285E553500582AEF /* BalanceView.swift in Sources */,
+				B14BACB7285E462500582AEF /* AppDelegate.swift in Sources */,
+				B14BACD0285E556600582AEF /* BalanceViewModel.swift in Sources */,
+				B14BACF3285F39B700582AEF /* BalanceService.swift in Sources */,
+				B14BACB9285E462500582AEF /* SceneDelegate.swift in Sources */,
+				B14BACF1285F364400582AEF /* UIControl+Extensions.swift in Sources */,
+				B14BACEB285EAFD800582AEF /* BalanceBoxView+State.swift in Sources */,
+				B14BACE7285E84C700582AEF /* Coordinator.swift in Sources */,
+				B14BACEE285F322D00582AEF /* ViewCode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B14BACC1285E462A00582AEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B14BACC2285E462A00582AEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B14BACC5285E462A00582AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B14BACC6285E462A00582AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B14BACC8285E462A00582AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y487CY958A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BalanceCombine/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PaoloProdossimoLopes.BalanceCombine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B14BACC9285E462A00582AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y487CY958A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BalanceCombine/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PaoloProdossimoLopes.BalanceCombine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B14BACAE285E462500582AEF /* Build configuration list for PBXProject "BalanceCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B14BACC5285E462A00582AEF /* Debug */,
+				B14BACC6285E462A00582AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B14BACC7285E462A00582AEF /* Build configuration list for PBXNativeTarget "BalanceCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B14BACC8285E462A00582AEF /* Debug */,
+				B14BACC9285E462A00582AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B14BACAB285E462500582AEF /* Project object */;
+}
